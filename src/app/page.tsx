@@ -10,6 +10,7 @@ import ServicesSection from "./components/ServicesSection";
 import MarketPricesSection from "./components/MarketPricesSection";
 import CTASection from "./components/CTASection";
 import Footer from "./components/Footer";
+import GeminiFloatingButton from "./components/GeminiFloatingButton";
 
 interface WeatherData {
   temperature: string;
@@ -132,6 +133,7 @@ export default function Home() {
         loading={loading}
       />
       <CTASection />
+      <GeminiFloatingButton />
       <Footer />
     </div>
   );
